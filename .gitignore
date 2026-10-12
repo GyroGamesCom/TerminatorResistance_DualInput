@@ -1,0 +1,21 @@
+# Local-only files (not published)
+NEXUS_PAGE.txt
+
+# Runtime logs
+*.log
+
+# Build intermediates
+src/*.obj
+src/*.exp
+src/*.lib
+src/*.pdb
+
+# Release packages
+dist/
+
+# Local RE workspace (extracted game files, helper scripts)
+work/
+
+# Build output (the release copy lives in mod/)
+src/*.dll
+notes/imports.txt

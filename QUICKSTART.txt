@@ -1,0 +1,36 @@
+DUAL INPUT MOD for Terminator: Resistance
+=========================================
+
+Gyro and gamepad work at the same time: gyro is native, linear mouse look and
+the game keeps showing gamepad button prompts. Full details are in README.md.
+
+INSTALLATION
+  1. Unzip anywhere.
+  2. Run install.bat. It finds the game through Steam (or asks for the folder).
+     When updating, it keeps your settings.
+  Manual: copy the 2 files from the "mod" folder next to
+  Terminator-Win64-Shipping.exe (game folder\Terminator\Binaries\Win64).
+
+UNINSTALL
+  Run uninstall.bat (or delete xinput1_3.dll, xinput_mouse.ini,
+  mixed_input.log and mixed_input.old.log from Terminator\Binaries\Win64).
+
+STEAM INPUT
+  Gyro            -> "As Mouse"
+  Right trackpad  -> "Joystick" (right stick)
+  Everything else -> normal gamepad
+  The right trackpad/stick always has priority over gyro.
+
+SENSITIVITY
+  Gyro:      in-game mouse sensitivity, "GyroSensitivity" in xinput_mouse.ini,
+             or the Steam Input gyro settings
+  Trackpad:  Steam Input trackpad settings, or the in-game controller sensitivity
+  Changes to the ini take effect after restarting the game.
+  F10 toggles the mod on/off during gameplay.
+
+NOTE
+  Real keyboard keys and mouse clicks still switch the prompts to keyboard.
+  Keep all Steam Input bindings on gamepad buttons.
+
+Unofficial mod, not affiliated with Reef Entertainment, Teyon, Skydance or
+Valve. Use at your own risk.
